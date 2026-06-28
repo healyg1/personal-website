@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Personal website for Galvin Healy: projects, writing, contact, and GitHub links."
+    >
+    <title>Galvin Healy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="intro" aria-labelledby="site-title">
+        <p class="eyebrow">Personal site</p>
+        <h1 id="site-title">Galvin Healy</h1>
+        <p class="lede">
+          I build useful things on the web and keep a public record of my work
+          through GitHub.
+        </p>
+
+        <figure class="portrait">
+          <img
+            src="assets/portrait-placeholder.png"
+            alt="Editorial portrait placeholder for the website owner"
+            width="768"
+            height="768"
+          >
+          <figcaption>Replace this image with your own photo when ready.</figcaption>
+        </figure>
+
+        <p class="time-line">
+          Local time: <span id="local-time" aria-live="polite">Loading...</span>
+        </p>
+
+        <nav class="link-row" aria-label="Primary links">
+          <a href="https://github.com/healyg1">GitHub</a>
+          <span aria-hidden="true">/</span>
+          <a href="#projects">Projects</a>
+          <span aria-hidden="true">/</span>
+          <a href="#contact">Contact</a>
+        </nav>
+      </section>
+
+      <section class="content-grid" id="projects" aria-labelledby="projects-title">
+        <div>
+          <h2 id="projects-title">Projects</h2>
+          <p>
+            A small collection of web and coding work, with source available
+            through GitHub.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article>
+            <h3>Personal website</h3>
+            <p>A lightweight HTML, CSS, and JavaScript site for publishing projects and contact links.</p>
+            <a href="https://github.com/healyg1">View GitHub profile</a>
+          </article>
+
+          <article>
+            <h3>Starter Python script</h3>
+            <p>A small command-line script kept in the repository as a simple Python starting point.</p>
+            <a href="https://github.com/healyg1">View GitHub profile</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-grid" id="contact" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            The fastest way to reach me is through email or GitHub.
+          </p>
+        </div>
+
+        <address class="contact-list">
+          <a href="mailto:47804633+healyg1@users.noreply.github.com">47804633+healyg1@users.noreply.github.com</a>
+          <a href="https://github.com/healyg1">@healyg1</a>
+        </address>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
