@@ -166,6 +166,12 @@ h3 {
   margin-top: 8px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
 .contact-list {
   display: flex;
   flex-direction: column;
